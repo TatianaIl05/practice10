@@ -21,13 +21,3 @@ with open('input.txt', 'r', encoding='utf-8') as i:
                 case -1:
                     if current_day + days[cell_month - 1] - cell_day > 3:
                         o.write(line[:len(line) - 6] + '\n')
-
-'''
-                case 11:
-                    if current_day + days[cell_month - 1] - cell_day > 3:
-                        o.write(line[:len(line) - 6] + '\n')
-                case -11:
-                    if cell_day + days[current_month - 1] - current_day > 3:
-                        o.write(line[:len(line) - 6] + '\n')
-                    
-'''
